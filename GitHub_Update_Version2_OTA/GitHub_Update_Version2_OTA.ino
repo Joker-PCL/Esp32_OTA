@@ -14,7 +14,7 @@ String FirmwareVer = {
 };
 
 #define URL_fw_Version "https://raw.githubusercontent.com/Joker-PCL/Esp32_OTA/master/GitHub_Update_Version2_OTA/bin-version.txt"
-#define URL_fw_Bin "https://raw.githubusercontent.com/Joker-PCL/Esp32_OTA/master/GitHub_Update_Version2_OTA/fw.bin"
+#define URL_fw_Bin "https://github.com/Joker-PCL/Esp32_OTA/raw/master/GitHub_Update_Version2_OTA/fw.bin"
 
 void setup() {
 
