@@ -10,11 +10,11 @@ int status = WL_IDLE_STATUS;
 int incomingByte;
 
 String FirmwareVer = {
-    "2.0"
+    "2.1"
 };
 
-#define URL_fw_Version "https://raw.githubusercontent.com/AhmadMahi/QuibbleUpdate/master/Quibbleupdate/bin-version.txt"
-#define URL_fw_Bin "https://raw.githubusercontent.com/AhmadMahi/QuibbleUpdate/master/Quibbleupdate/fw.bin"
+#define URL_fw_Version "https://raw.githubusercontent.com/Joker-PCL/Esp32_OTA/master/GitHub_Update_Version2_OTA/bin-version.txt"
+#define URL_fw_Bin "https://raw.githubusercontent.com/Joker-PCL/Esp32_OTA/master/GitHub_Update_Version2_OTA/fw.bin"
 
 void setup() {
 
