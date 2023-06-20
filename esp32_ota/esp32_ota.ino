@@ -88,9 +88,9 @@ void setup() {
 
 void loop() {
   digitalWrite(LED_BUILTIN, HIGH);
-  delay(500);
+  delay(200);
   digitalWrite(LED_BUILTIN, LOW);
-  delay(500);
+  delay(200);
   if (button_boot.pressed) { //to connect wifi via Android esp touch app 
     Serial.println("Firmware update Starting..");
     firmwareUpdate();
