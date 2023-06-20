@@ -9,7 +9,7 @@ const char * password = "plant172839";
 
 
 String FirmwareVer = {
-  "2.2"
+  "2.3"
 };
 
 #define URL_fw_Version "https://raw.githubusercontent.com/Joker-PCL/Esp32_OTA/master/esp32_ota/bin_version.txt"
